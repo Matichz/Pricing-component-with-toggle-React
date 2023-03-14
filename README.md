@@ -1,5 +1,5 @@
 # Resultado desktop
-https://github.com/Matichz/Pricing-component-with-toggle-React/blob/main/resultado%20desktop.png
+![](https://github.com/Matichz/Pricing-component-with-toggle-React/blob/main/resultado%20desktop.png)
 
 
 # Getting Started with Create React App
