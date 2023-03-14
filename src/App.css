@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(240, 78%, 98%);
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagen-bg-top {
+  max-width: 300px;
+  position: absolute;
+  top: -40px;
+  right: -150px;
+}
+
+.titulo {
+  color: hsl(232, 13%, 33%);
+  font-size: 2.1rem;
+  padding: 40px 0;
+}
+
+.contenedor-tarjetas-plan {
+  display: flex;
+  flex-direction: column;
+  width: 88%;
+  gap: 40px;
+  padding: 75px 0;
+}
+
+.contenedor-tarjeta-basic, .contenedor-tarjeta-profesional,
+.contenedor-tarjeta-master {
+  height: 28.5rem;
+}
+
+@media (min-width:720px) {
+  .contenedor {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor-tarjetas-plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 0;
+    padding: 0;
+    height: 38rem;
+  }
+
+  .contenedor-tarjeta-basic, .contenedor-tarjeta-master{ 
+    height: 29rem;
+  }
+
+  .contenedor-tarjeta-basic {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    
+  }
+
+  .contenedor-tarjeta-profesional {
+    height: 32rem;
+  }
+
+}

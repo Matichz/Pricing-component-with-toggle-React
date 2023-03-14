@@ -1,0 +1,90 @@
+.contenedor-tarjeta {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px hsl(243, 75%, 95%);
+    color: hsl(232, 13%, 33%);
+    text-align: center;
+    height: 100%;
+}
+
+.tipo-de-plan {
+    font-size: 17px;
+    padding: 30px 0 15px 0;
+}
+
+.precio-plan {
+    font-size: 4.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.signo-precio {
+    font-size: 2.2rem;
+}
+
+.contenedor-contenido-plan {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.contenedor-elementos-plan li {
+    font-size: 16px;
+    list-style: none;
+    padding: 18px 0;
+}
+
+.text-capacidad-plan {
+    border-top: 1px solid hsl(234, 14%, 74%);
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+}
+
+.text-enviar-gb{
+    border-top: 1px solid hsl(234, 14%, 74%);
+    border-bottom: 1px solid hsl(234, 14%, 74%);
+}
+
+.boton {
+    background: linear-gradient(
+        40deg,
+        hsl(236, 72%, 79%),
+        hsl(237, 63%, 64%)
+    );
+    width: 80%;
+    padding: 14px 0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+
+@media (min-width: 720px) {
+    .contenedor-tarjeta {
+        width: 23rem;
+        box-shadow: 20px 30px 30px hsl(243, 75%, 95%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boton {
+        cursor: pointer;
+        padding: 12px 0;
+        border: 2px solid hsl(237, 63%, 64%);
+    }
+
+    .boton:hover {
+        background: transparent;
+        color: hsl(237, 63%, 64%);
+        border: 2px solid hsl(237, 63%, 64%);
+    }
+}
+
